@@ -113,8 +113,8 @@ Para executar o roque, o rei deve se mover duas casas na direção da torre esco
         for (let i = 0; i < intermediario.length; i++) {
             listaIntermediario += `${intermediario[i].id} - ${intermediario[i].nome}\n`
         }
-        let moduloIntermediarioId = prompt(`Agora escolha qual módulo você quer aprender:
-${listaIntermediario}`)
+        let moduloIntermediarioId = parseInt(prompt(`Agora escolha qual módulo você quer aprender:
+${listaIntermediario}`))
 
         if (moduloIntermediarioId === 1) {
             console.log(`As aberturas comuns no xadrez são as primeiras jogadas que definem o tom estratégico e tático de uma partida, sendo fundamentais para o desenvolvimento do jogo.
