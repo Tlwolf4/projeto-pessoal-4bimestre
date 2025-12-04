@@ -135,6 +135,8 @@ O final de reis e peões é um exemplo de final e deve ser o primeiro a ser estu
  Durante esta fase, é comum o uso de aberturas clássicas, como o Ruy-Lopez, o Sistema London ou o Gambito da Rainha, que oferecem estratégias bem estabelecidas para começar bem.
  O meio-jogo é a fase de maior desenvolvimento das peças, onde as táticas e estratégias se intensificam.
  Já o final é caracterizado pela redução do número de peças no tabuleiro, com os reis assumindo um papel mais ativo.`)
+        } else {
+            console.log("Módulo inválido para o nível Intermediário.")
         }
         confirmacao = prompt(`Você gostaria de aprender outro módulo? (S/N)`).toUpperCase()
     } while (confirmacao === "S")
